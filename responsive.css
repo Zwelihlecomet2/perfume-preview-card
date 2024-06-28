@@ -1,0 +1,12 @@
+@media (min-width: 375px) and (max-width: 1440px){
+    .container .container-content{
+        max-height: 70%;
+        max-width: 70%;
+    }
+
+    .container-content img:last-child{
+        max-height: 90%;
+        max-width: 90%;
+    }
+
+}

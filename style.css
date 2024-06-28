@@ -1,5 +1,54 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.container-content{
+    background-color: white;
+    border-radius: 10px;    
+}
+.container .container-content .content .lead{
+    color: black;
+    font-weight: 400;
+}
+
+.image img{
+    border-radius: 10px;
+}
+
+.content h1{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.content span h1{
+    color: hsl(158, 36%, 37%);
+}
+
+.container span p{
+    text-decoration: line-through;
+}
+
+.content button{
+    width: 15rem;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.content button:hover{
+    font-weight: 400;
+    background-color: rgb(4, 44, 27)
 }
